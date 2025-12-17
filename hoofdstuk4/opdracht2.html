@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Flex lay-out</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+        }
+
+        footer {
+            background-color: #333333;
+            color: #ffffff;
+            padding: 20px;
+            width: 100%;
+        }
+
+        .container {
+            display: flex;
+            gap: 10px;
+            width: 1140px;
+            margin: 0px auto;
+        }
+
+        .column {
+            width: 25%;
+
+        }
+
+        .column h4 {
+            margin-bottom: 15px;
+            font-size: 18px;
+            color: #ffffff;
+        }
+
+        .column ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .column ul li {
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+
+        .column ul li a {
+            color: #bbbbbb;
+            text-decoration: none;
+        }
+
+        .column ul li a:hover {
+            text-decoration: underline;
+            color: #ffffff;
+        }
+
+        .column p {
+            font-size: 14px;
+            line-height: 1.5;
+            color: #cccccc;
+        }
+    </style>
+</head>
+
+<body>
+    <footer>
+        <div class="container">
+            <div class="column">
+                <h4>Over Ons</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus.</p>
+            </div>
+            <div class="column">
+                <h4>Contact</h4>
+                <ul>
+                    <li>Email: info@voorbeeld.nl</li>
+                    <li>Telefoon: +31 6 12345678</li>
+                    <li>Adres: Straatnaam 1, Amsterdam</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h4>Snelkoppelingen</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Diensten</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h4>Social Media</h4>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
