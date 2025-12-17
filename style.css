@@ -1,0 +1,58 @@
+/* Auteur: Justin Rademaker */
+body {
+    background-color: #fffaf0;
+    color: #4f7302;
+    font-family: Arial, sans-serif;
+    width: 800px;
+    margin: auto;
+}
+
+h1 {
+    color: #a6430a;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+h2 {
+    color: #a6430a;
+    font-size: 1.8em;
+    border-bottom: 2px solid #a6430a;
+}
+
+p,
+ol,
+ul {
+    line-height: 1.8;
+}
+
+a {
+    color: #f28907;
+}
+
+a:hover {
+    color: #a60303;
+    text-decoration-line: none;
+}
+
+ul {
+    color: #4f7302;
+    list-style-type: square;
+}
+
+ol {
+    color: #4f7302;
+    list-style-type: upper-roman;
+}
+
+table {
+    width: 40%;
+    background-color: #fffaf0;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #dddddd;
+}
+
+
